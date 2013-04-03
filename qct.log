@@ -1,0 +1,158 @@
+INFO main com.imaginea.qctree.BuildTree - Hive Server running at: 40000
+INFO main com.imaginea.qctree.hive.Hivejdbc - query_file_seperator : ,
+qctree_filename : qcTree.ser
+hive_table_escaped_by : \\
+hive_username : hadoop
+hive_client_ip : localhost
+hive_table_field_seperator : 	
+hive_password : hadoop
+hive_db : default
+hive_server_port : 10000
+lattice_filename : qcube_lattice.csv
+base_table_name : hivebasetable
+hive_table_line_terminator : 
+
+warehouse_path : /hive/warehouse
+hive_driver_name : org.apache.hadoop.hive.jdbc.HiveDriver
+hive_port : 40000
+
+INFO main com.imaginea.qctree.hive.Hivejdbc - Query: create table hivebasetable (dim1 string, dim2 string, dim3 string, measure1 float ) row format delimited fields terminated by '	' escaped by '\\' lines terminated by '
+'
+INFO main com.imaginea.qctree.hive.Hivejdbc - hivebasetable does not exist, table created.
+INFO main com.imaginea.qctree.hive.Hivejdbc - Loaded RawFile: sample.txt
+INFO main com.imaginea.qctree.hive.Hivejdbc - Running: select * from hivebasetable
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Macromedia s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Sibelius p 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Borland s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Yahoo s 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Altavista p 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Sibelius s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Lycos p 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Yahoo s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P5 Google p 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Google s 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Altavista p 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Microsoft s 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Borland s 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Finale s 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Lavasoft p 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Microsoft s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Finale s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Apple Systems p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Google p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Borland p 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Lycos p 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Lavasoft s 3.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Altavista p 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Altavista p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Altavista s 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Apple Systems s 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P5 Borland s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Chami s 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Borland s 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Yahoo p 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Google p 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P5 Macromedia s 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Finale s 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Cakewalk p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Chami p 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Cakewalk s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Lycos s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Adobe p 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Altavista s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Lycos s 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Cakewalk s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Adobe s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P5 Yahoo s 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Apple Systems s 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Lycos s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Microsoft p 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Lycos p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Yahoo s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Macromedia p 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Cakewalk s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Adobe s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Cakewalk p 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Adobe p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Apple Systems p 3.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Altavista s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Lycos s 3.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Finale p 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Chami s 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Finale s 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Yahoo s 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Adobe p 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Cakewalk s 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P5 Cakewalk p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Adobe p 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Sibelius p 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Google p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Adobe p 10.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Apple Systems s 3.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Altavista s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Sibelius s 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Chami p 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Cakewalk p 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Microsoft p 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Sibelius p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Borland p 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Chami p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Lavasoft p 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Adobe p 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P2 Cakewalk p 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Chami s 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Finale s 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Cakewalk s 6.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Apple Systems p 7.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P9 Borland s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Microsoft p 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Altavista s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P4 Lavasoft s 2.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Adobe s 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Cakewalk p 1.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Lavasoft s 3.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P10 Yahoo p 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Cakewalk s 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P1 Borland p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Macromedia p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P7 Chami s 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Google p 9.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P3 Chami s 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P5 Sibelius p 4.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P8 Google s 5.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - Adding row : [ P6 Cakewalk p 8.0 ]
+INFO main com.imaginea.qctree.hive.Hivejdbc - attempting a serialization on tree object..
+INFO main com.imaginea.qctree.hive.Hivejdbc - Create table: create table qc_hivebasetable (def string)
+INFO main com.imaginea.qctree.hive.Hivejdbc - Table created qc_hivebasetable
+INFO main com.imaginea.qctree.hive.Hivejdbc - Creating table.. true
+INFO main com.imaginea.qctree.hive.Hivejdbc - Lattice structure: /home/hadoop/work/Java-Projects/HiveQctree/qcube_lattice.csv
+INFO main com.imaginea.qctree.hive.Hivejdbc - loaded qclattice data
+INFO main com.imaginea.qctree.hive.Hivejdbc - local qclattice file deleted.
+INFO main com.imaginea.qctree.hive.Hivejdbc - Lattice structure: /home/hadoop/work/Java-Projects/HiveQctree/qcTree.ser
+INFO main com.imaginea.qctree.hive.Hivejdbc - loaded serialised object
+INFO main com.imaginea.qctree.hive.Hivejdbc - local serialised object deleted.
+INFO main com.imaginea.qctree.hive.Hivejdbc - Loading files.. true
+INFO main com.imaginea.qctree.hive.Hivejdbc - query_file_seperator : ,
+qctree_filename : qcTree.ser
+hive_table_escaped_by : \\
+hive_username : hadoop
+hive_client_ip : localhost
+hive_table_field_seperator : 	
+hive_password : hadoop
+hive_db : default
+hive_server_port : 10000
+lattice_filename : qcube_lattice.csv
+base_table_name : hivebasetable
+hive_table_line_terminator : 
+
+warehouse_path : /hive/warehouse
+hive_driver_name : org.apache.hadoop.hive.jdbc.HiveDriver
+hive_port : 40000
+
+INFO main com.imaginea.qctree.hive.Hivejdbc - URI: hdfs://localhost:40000/hive/warehouse/qc_hivebasetable/qcTree.ser
+INFO main com.imaginea.qctree.hadoop.Query - *,Microsoft,*
+INFO main com.imaginea.qctree.hadoop.Query - Average=5.8,Sum=29,Maximum=10,Minimum=2,Count=5
+INFO main com.imaginea.qctree.hadoop.Query - P2,Altavista,*
+INFO main com.imaginea.qctree.hadoop.Query - Average=6,Sum=12,Maximum=7,Minimum=5,Count=2
+INFO main com.imaginea.qctree.hadoop.Query - *,*,p
+INFO main com.imaginea.qctree.hadoop.Query - Average=5.56,Sum=267,Maximum=10,Minimum=1,Count=48
